@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+
+<body class="bg-dark">
+    <div class="container-fluid bg-dark">
+        <div class="row">
+            <div class="col-lg-6 mr-auto">
+                <h1>Create Song</h1>
+                <form action="#" id="form" class="pt-3">
+                    <div class="form-group">
+                        <label for="songName">Select Song</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Finesse</option>
+                            <option>My Feelings</option>
+                            <option>New Rules</option>
+                            <option>Perfect</option>
+                            <option>Girls Like You</option>
+                        </select>
+                    </div>  
+
+                    <div class="form-group">
+                        <label for="singerName">Select Artist</label>
+                        <select class="form-control" id="exampleFormControlSelect2">
+                            <option>Bruno Mars</option>
+                            <option>Drake</option>
+                            <option>Dua Lipa</option>
+                            <option>Ed Sheeran</option>
+                            <option>Marron 5</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="albumName">Select Album</label>
+                        <select class="form-control" id="exampleFormControlSelect3">
+                            <option>24K Magic</option>
+                            <option>Scorpion</option>
+                            <option>Dua Lipa</option>
+                            <option>Divide</option>
+                            <option>Red Pill Blues</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-2" id="add-song-btn">Add to Playlist</button>
+                </form>
+            </div>
+        
+            <div class="col-lg-6 ml-auto overflow-auto">
+                <h1>Playlist</h1>
+
+                <div class="d-flex flex-column bd-highlight mb-3" id="Playlist">
+                    
+                    <!-- <div class="p-2 bd-highlight song">Song 1</div>
+                        <audio controls src="local-music\In-My-Feelings.mp3" id="myAudio1"></audio>
+
+                    <div class="p-2 bd-highlight song">Song 1</div>    
+                    <audio controls src="local-music\In-My-Feelings.mp3" id="myAudio2"></audio>
+
+                    <div class="p-2 bd-highlight song">Song 1</div>
+                    <audio controls src="local-music\In-My-Feelings.mp3" id="myAudio3"></audio> -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="main.js"></script>
+
+</html>
